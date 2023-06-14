@@ -14,7 +14,9 @@ class ComicController extends Controller
      */
     public function index()
     {
-        //
+        $comic = Comic::All();
+
+        return view('pages.home', compact('comic'));
     }
 
     /**
@@ -44,9 +46,10 @@ class ComicController extends Controller
      * @param  \App\Models\Comic  $comic
      * @return \Illuminate\Http\Response
      */
-    public function show(Comic $comic)
+    public function show($id)
     {
-        //
+        $comicSingolo = Comic::find($id);
+        return view('pages.singleCard', compact('comicSingolo'));
     }
 
     /**
