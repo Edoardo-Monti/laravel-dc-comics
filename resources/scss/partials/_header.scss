@@ -1,4 +1,4 @@
-.princ{
+.header{
     height: 120px;
     background-color: white;
         .cont{
@@ -8,37 +8,34 @@
             width: 80%;
             // height: 100%;
             margin: 0 auto;
-
-
-            .second-cont{
+        }
+    
+        .second-cont{
+        display: flex;
+            ul {
                 display: flex;
-                ul {
-                    display: flex;
-                    align-items: center;
+                align-items: center;
+                // height: 100%;
+                li {
+                    list-style-type: none;
+                    margin: 0 10px;
                     // height: 100%;
-                    li {
-                        list-style-type: none;
-                        margin: 0 10px;
-                        // height: 100%;
-                        line-height: 117px;
-                        &:hover{
-                                color: blue;
-                                border-bottom: 4px solid blue
-                            }
-                        
-                        a {
-                            text-decoration: none;
-                            color: black;
-                            &:hover{
-                                color: blue;
-                            }
-                            
+                    line-height: 117px;
+                    &:hover{
+                            color: blue;
+                            border-bottom: 4px solid blue
                         }
+                    
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        &:hover{
+                            color: blue;
+                        }
+                        
                     }
                 }
-
             }
-    
         };
     }
     .background{
