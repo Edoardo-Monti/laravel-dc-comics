@@ -11,31 +11,31 @@
             <input class="form-control" type="text" name="title">
         </div>
         <div class="form-group">
-            <label class="form-label" for="">description</label>
+            <label class="form-label" for="">Description</label>
             <textarea name="description" id="" cols="50" rows="10"></textarea>
         </div>
         <div class="form-group">
-            <label class="form-label" for="">thumb</label>
+            <label class="form-label" for="">Thumb</label>
             <input class="form-control" type="text" name="thumb">
         </div>
         <div class="form-group">
-            <label class="form-label" for="">price</label>
+            <label class="form-label" for="">Price</label>
             <input class="form-control" type="number" name="price">
         </div>
         <div class="form-group">
-            <label class="form-label" for="">series</label>
+            <label class="form-label" for="">Series</label>
             <input class="form-control" type="text" name="series">
         </div>
         <div class="form-group">
-            <label class="form-label" for="">sale_date</label>
+            <label class="form-label" for="">Sale_Date</label>
             <input class="form-control" type="date" name="sale_date">
         </div>
         <div class="form-group">
-            <label class="form-label" for="">type</label>
+            <label class="form-label" for="">Type</label>
             <input class="form-control" type="text" name="type">
         </div>
     
-        <button type="submit">Crea Fumetto</button>
+        <button type="submit" class="btn btn-primary">Crea Fumetto</button>
 </div>
 
 @endsection
