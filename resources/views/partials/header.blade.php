@@ -7,7 +7,7 @@
         <div class="second-cont">
             <ul>
                 <li>
-                    <a href="#">COMICS</a>
+                    <a href="{{route('comic.index')}}">COMICS</a>
                 </li>
                 <li>
                     <a href="#">MOVIES</a>

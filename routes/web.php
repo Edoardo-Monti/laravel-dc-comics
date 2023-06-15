@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ComicController as ComicController;
+use App\Http\Controllers\HomeController as HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,5 +14,8 @@ use App\Http\Controllers\ComicController as ComicController;
 |
 */
 //Route::resource('/', ComicController::class);
+
+Route::get('/', [HomeController::class, 'index'])->name('home');;
+
 Route::resource('/comic', ComicController::class);
 
