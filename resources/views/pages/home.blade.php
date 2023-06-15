@@ -12,6 +12,7 @@
                     <img src="{{ $elem['thumb'] }}" alt="">
                     <h3>{{$elem['type']}}</h3>
                 </a>
+                <a href="{{route('comic.edit', $elem)}}" class="btn btn-primary">Modifica</a>
             </div>
             @endforeach
         </div>

@@ -1,6 +1,7 @@
 @extends( 'layout.app' )
 
 @section('content')
+<h1>CREA UN NUOVO FUMETTO</h1>
 <div class="container">
     <form action=" {{ route( 'comic.store' ) }} " method="POST">
         @csrf
