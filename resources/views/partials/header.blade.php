@@ -10,6 +10,9 @@
                     <a href="{{route('comic.index')}}">COMICS</a>
                 </li>
                 <li>
+                    <a href="{{route('comic.create')}}">CREATE</a>
+                </li>
+                <li>
                     <a href="#">MOVIES</a>
                 </li>
                 <li>
