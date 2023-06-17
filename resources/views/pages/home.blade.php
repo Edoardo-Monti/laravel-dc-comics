@@ -10,7 +10,9 @@
         <div class="cardDc">
             <a href="/comic/{{$elem['id'] }}">
                 <img src="{{ $elem['thumb'] }}" alt="">
-                <h3>{{$elem['type']}}</h3>
+                <div class="altezza">
+                    <h3 class="">{{$elem['title']}}</h3>
+                </div>
             </a>
 
             <a href="{{route('comic.edit', $elem)}}" class="btn btn-primary">Modifica</a>

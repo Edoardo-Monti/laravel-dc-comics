@@ -17,10 +17,15 @@
                 width: 200px;
                 height: 200px;
             }
-            h3{
-                color: white;
-                font-size: 15px;
-                margin-right: 40px;
+            .altezza{
+                min-height: 50px;
+                h3{
+                    color: white;
+                    font-size: 15px;
+                    margin-right: 40px;
+                    padding-top: 10px;
+                   
+                }
             }
             span{
                 color: white;
